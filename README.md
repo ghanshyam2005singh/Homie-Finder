@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here's a clean and professional `README.md` for your **Homie Finder** project:
 
-## Getting Started
+---
 
-First, run the development server:
+````md
+# 🏠 Homie Finder
+
+**Homie Finder** is a platform where students can post available rooms and others can browse them with trust and transparency. Each student has a complete profile, so parents and roommates can feel confident in their choices.
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 15 (App Router, TypeScript)
+- **Styling**: Tailwind CSS
+- **Backend**: Firebase (Auth, Firestore, Storage)
+- **Authentication**: Firebase Email/OTP (Resend support coming)
+- **Image Upload**: Firebase Storage (optional UploadThing)
+- **UI**: ShadCN UI / Headless UI
+- **Maps (Future)**: Google Maps or Mapbox
+
+## 🔧 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/homie-finder.git
+cd homie-finder
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+npm install firebase
+
+```
+
+### 3. Set up Firebase
+
+* Go to [Firebase Console](https://console.firebase.google.com/)
+* Create a new project: `Homie Finder`
+* Enable:
+
+  * Authentication (Email/Password or Phone)
+  * Firestore Database (Start in test mode)
+  * Firebase Storage (for image uploads)
+
+### 5. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Features (Planned)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* ✅ Student Signup/Login (OTP/Email)
+* ✅ Complete Student Profiles
+* ✅ Post & Browse Room Listings
+* 🕒 Filters by College, Rent, Gender
+* 🕒 Parent-Friendly View Mode
+* 🕒 Verification Badge
+* 🕒 Maps Integration
 
-## Learn More
+## 📁 Project Structure (simplified)
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── page.tsx        // Landing Page
+│   └── auth/           // Auth pages
+├── components/         // Reusable UI components
+├── lib/                // Firebase, utils, etc.
+├── styles/             // Global styles
+└── types/              // TypeScript interfaces
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧑‍💻 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pull requests and feedback are welcome. For major changes, open an issue first.
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[MIT](LICENSE)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+
+---
