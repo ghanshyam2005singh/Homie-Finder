@@ -16,9 +16,9 @@ const Navbar = () => {
 
         {/* Right Side Buttons */}
         <div className="flex items-center gap-4 whitespace-nowrap">
-          <a href="#" className="text-sm text-blue-600 font-medium hover:underline">Login</a>
-          <a href="#" className="text-sm text-white bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 transition">Sign Up</a>
-          <a href="#" className="text-sm text-gray-600 hover:underline">Contact Us</a>
+          <a href="./login" className="text-sm text-blue-600 font-medium hover:underline">Login</a>
+          <a href="./signup" className="text-sm text-white bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 transition">Sign Up</a>
+          <a href="https://iron-industry.tech" type="_blank" className="text-sm text-gray-600 hover:underline">Contact Us</a>
         </div>
       </div>
     </header>
