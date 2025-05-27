@@ -24,7 +24,7 @@ export default function Home() {
               Get Started
             </a>
             <a
-              href="#"
+              href="./rooms"
               className="text-blue-600 border border-blue-600 hover:bg-blue-50 font-medium py-3 px-6 rounded-full transition"
             >
               Browse Listings

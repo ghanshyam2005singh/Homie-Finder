@@ -1,8 +1,3 @@
-Here's a clean and professional `README.md` for your **Homie Finder** project:
-
----
-
-````md
 # 🏠 Homie Finder
 
 **Homie Finder** is a platform where students can post available rooms and others can browse them with trust and transparency. Each student has a complete profile, so parents and roommates can feel confident in their choices.
@@ -24,6 +19,8 @@ Here's a clean and professional `README.md` for your **Homie Finder** project:
 ```bash
 git clone https://github.com/YOUR_USERNAME/homie-finder.git
 cd homie-finder
+npm install @supabase/supabase-js
+
 ````
 
 ### 2. Install dependencies
@@ -86,3 +83,9 @@ Pull requests and feedback are welcome. For major changes, open an issue first.
 ```
 
 ---
+
+## Issue
+1. Filtering is not working
+2. otp is not sending
+3. after creating account user will be redirect to upload or download page with upper corner profile icon
+4. save users informations in database
