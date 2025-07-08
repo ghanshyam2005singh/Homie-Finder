@@ -83,9 +83,3 @@ Pull requests and feedback are welcome. For major changes, open an issue first.
 ```
 
 ---
-
-## Issue
-1. Filtering is not working
-2. otp is not sending
-3. after creating account user will be redirect to upload or download page with upper corner profile icon
-4. save users informations in database
